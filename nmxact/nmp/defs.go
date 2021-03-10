@@ -50,6 +50,7 @@ const (
 	NMP_GROUP_FS      = 8
 	NMP_GROUP_SHELL   = 9
 	NMP_GROUP_PERUSER = 64
+	NMP_GROUP_FMFU    = 65
 )
 
 // Default group (0).
@@ -108,7 +109,13 @@ const (
 	NMP_ID_FS_FILE = 0
 )
 
-// Shell group (8).
+// Shell group (9).
 const (
 	NMP_ID_SHELL_EXEC = 0
+)
+
+// Modem Firmwae Update group (65).
+const (
+	NMP_ID_FMFU_HASH   = 0
+	NMP_ID_FMFU_UPLOAD = 1
 )
